@@ -1,0 +1,3 @@
+[pypi]
+	username = __token__
+	password = pypi-AgEIcHlwaS5vcmcCJDE4Nzc1OWMzLWViMWItNGUzMy04ODhlLTA5MThlODIwOTQ2YwACKlszLCJiYjZjYjgyMC04NTc5LTRiZjUtODNmNC1iZDExMGY2ZTQxOTUiXQAABiAAvsv1WqRY62I-IKtlzLJUL8apSVrsKuWu4izOpR1uKw

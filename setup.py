@@ -10,11 +10,6 @@ setup(
     description='Sistema de gestão de alunos, docentes, turmas e disciplinas.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/seuusuario/gestao-alunos',
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-    ],
+    url='https://github.com/seuusuario/gestao-alunos',    
     python_requires='>=3.6',
 )
