@@ -625,7 +625,7 @@ def guardar_dados(nome_ficheiro="dados.json"):
     dados = {
         "alunos": Aluno.alunos,
         "docentes": Docente.docentes,
-        "turmas": list(Turma.turmas),
+        "turmas": Turma.turmas,
         "disciplinas": Disciplina.disciplinas
     }
     with open(nome_ficheiro, "w", encoding="utf-8") as f:
@@ -646,7 +646,7 @@ def carregar_dados(nome_ficheiro="dados.json"):
             dados = json.load(f)
             Aluno.alunos = dados.get("alunos", {})
             Docente.docentes = dados.get("docentes", {})
-            Turma.turmas = dados.get("turmas", {})  # ← aqui está corrigido!
+            Turma.turmas = dados.get("turmas", {}) 
             Disciplina.disciplinas = dados.get("disciplinas", {})
         print(f"📂 Dados carregados de '{nome_ficheiro}'.")
     except FileNotFoundError:
