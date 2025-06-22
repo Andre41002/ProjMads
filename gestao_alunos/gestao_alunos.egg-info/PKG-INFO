@@ -1,3 +1,13 @@
+Metadata-Version: 2.4
+Name: gestao-alunos
+Version: 0.1.2
+Summary: Sistema de gestão de alunos, docentes, turmas e disciplinas
+Author-email: Grupo 2 MADS 2ano <a041002@ipmaia.pt>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tabulate
+
 # Gestão de Alunos
 
 Sistema de gestão de alunos, docentes, turmas e disciplinas desenvolvido pelo **Grupo 2 MADS 2ano**.
